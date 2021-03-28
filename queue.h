@@ -7,7 +7,8 @@ typedef struct queue {
 } Queue;
 
 Queue* create_queue ();
-
+void printaLista(Queue *q);
+void imprimir(Queue *q);
 void free_queue (Queue *q);
 
 Queue* enqueue (Queue *q, int elem);

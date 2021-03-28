@@ -3,7 +3,7 @@
 
 int main () {
 
-   char *seq = "[ ( ) ]"; 	
+   char *seq = "[ []  ]"; 	
 
    int i = 0;
     
